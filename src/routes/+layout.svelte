@@ -1,4 +1,5 @@
 <script lang="ts">
+	import '$lib/imports.ts';
 	import { onMount } from 'svelte';
 
 	let ready: boolean = false;

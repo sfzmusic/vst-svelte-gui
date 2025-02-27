@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Counter from '$lib/Counter.svelte';
 	import Logo from '$lib/Logo.svelte';
 	import { browser } from '$app/environment';
 
@@ -19,8 +18,6 @@
 	<Logo />
 
 	<h1>Hello {agent}!</h1>
-
-	<Counter id="0" {agent} />
 
 	{#if desktop}
 		<br />

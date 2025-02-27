@@ -24,6 +24,8 @@
 		"Chrome 89"
 	],
 	"dependencies": {
+		"@types/bootstrap": "^5.2.10",
+		"bootstrap": "^5.3.3",
 		"electron-context-menu": "^3.6.1",
 		"electron-reloader": "^1.2.3",
 		"electron-serve": "^1.1.0",
@@ -53,6 +55,9 @@
 		"svelte-check": "^3.1.4",
 		"svelte-preprocess": "^5.0.3",
 		"tslib": "^2.5.0",
+		"ts-utils": "github:tsaxking/global-ts-utilities",
+		"colors": "git+https://github.com/tsaxking/colors.git",
+		"math": "github:tsaxking/calculations",
 		"typescript": "^4.9.4",
 		"vite": "^4.0.4"
 	},
